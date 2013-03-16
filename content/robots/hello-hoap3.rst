@@ -2,7 +2,7 @@ HOAP3 loves to write letters
 ============================
 
 HOAP3 is a sweet little humanoid robot build by Fujitsu, that first appeared on
-the market in 2005 (and has already retired since a couple of years, actually).
+the market in 2005 (and has actually already retired since a couple of years now).
 
 .. image:: http://shyrobotics.com/wp-content/uploads/2012/02/hoap3_1.jpg
   :align: center
@@ -41,6 +41,13 @@ Attention, requires Blender 2.66 for correct OBJ importation!)
 
 You can get the resulting URDF file here, as a ROS package: `hoap3_description
 <https://github.com/severin-lemaignan/hoap3_description>`_.
+
+.. note::
+  Because RobotToolKit stores explicitely zeros values of the joints, which is
+  not supported in URDF files, I had to patch `joint_state_publisher` to
+  optionally read a set of zeros values when it publishes the rest state of a
+  robot. The patch has been `accepted upstream
+  <https://github.com/DLu/robot_model_visualization/commit/db2864ea6a1d4ce92bf6a7471a7c2cff99f77cdd>`_.
 
 And the resulting model, viewed in RViz with this command:
 
