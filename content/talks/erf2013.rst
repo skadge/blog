@@ -1,0 +1,11 @@
+Talk at ERF2013: From Semantic Web to Robot Cognition
+=====================================================
+
+I've been invited by `Markus Waibel <http://mwaibel.info/>`_ to give a talk at
+the `European Robotic Forum 2013 <http://www.eurobotics2013.com/>`_, in Lyon on
+the 20th of March.
+
+Markus organizes a `workshop on Cloud Robotics
+<http://www.roboearth.org/eurobotics2013>`_ and I'll be talking about the
+application to robots of technologies originally built for the Semantic Web.
+
