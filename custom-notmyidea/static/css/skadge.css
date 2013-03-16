@@ -1,0 +1,41 @@
+.align-center {
+    display: block;
+    margin: auto;
+}
+
+.float-left {
+    float:left;
+}
+.float-right {
+    float:right;
+}
+
+
+.note {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    overflow-x: auto;
+    padding: 8px 15px;
+}
+
+.note>.last:first-letter {
+    color: #990033;
+    float: left;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 75px;
+    line-height: 60px;
+    padding-right: 5px;
+    padding-top: 4px;
+}
+
+
+.admonition-title {
+    display:none;
+}
+
+#contentinfo  {
+    font-size:70%;
+}
+
+

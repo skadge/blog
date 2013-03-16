@@ -27,3 +27,5 @@ DEFAULT_LANG = u'en'
 #TYPOGRIFY = True
 
 GITHUB_URL = 'http://github.com/skadge'
+
+THEME = "custom-notmyidea"
